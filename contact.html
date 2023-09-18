@@ -1,0 +1,87 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="en">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<title>EDUFORD</title>
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<meta name="format-detection" content="telephone=no">
+	</head>
+	<body>
+		<header class="sub-header">
+			<nav>
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="course.html">COURSE</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Contact Us</h1>
+		</header>
+		<section class="location">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19231.56113220599!2d105.08421762429334!3d52.949410119400646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5da98fdda7c1c407%3A0x42de98f00c6dec0!2z0J7RgtC-0L3RhdC-0LksINCY0YDQutGD0YLRgdC60LDRjyDQvtCx0LsuLCA2Njk1MTg!5e0!3m2!1sru!2sru!4v1688045186546!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</section>
+		<section class="contact-us">
+			<div class="row">
+				<div class="contact-us__column">
+					<div>
+						<i class="fa-solid fa-house"></i>
+						<span>
+							<h5>ул.Центральная, д.6</h5>
+							<p>Отонхой, Иркутская обл., 669518</p>
+						</span>
+					</div>
+					<div>
+						<i class="fa-solid fa-phone"></i>
+						<span>
+							<h5>+7 9086621358</h5>
+							<p>Monday to Friday, 10AM to 6PM</p>
+						</span>
+					</div>
+					<div>
+						<i class="fa-regular fa-envelope"></i>
+						<span>
+							<h5>info@pantyusha.com</h5>
+							<p>Email us your query</p>
+						</span>
+					</div>
+				</div>
+				<div class="contact-us__column">
+					<form action="form-handler.php" method="post">
+						<input type="text" name="name" placeholder="Enter your name" required>
+						<input type="email" placeholder="Enter your email addres" required>
+						<input type="text" placeholder="Enter your subject" required>
+						<textarea rows="8" placeholder="Message" required></textarea>
+						<button type="submit" class="hero-btn red-btn">Send Message</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<h4>About Us</h4>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla odit dolore excepturi hic unde ooooo ya churka<br>deleniti maxime dolorem consequuntur sit, quaerat qui esse quae!</p>
+			<div class="icons">
+				<i class="fa-brands fa-facebook"></i>
+				<i class="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-linkedin"></i>
+			</div>
+			<p>Made with <i class="fa-regular fa-heart"></i> by Pantusha</p>
+		</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>

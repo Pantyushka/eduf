@@ -1,0 +1,60 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="en">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<title>EDUFORD</title>
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<meta name="format-detection" content="telephone=no">
+	</head>
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="course.html">COURSE</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>About Us</h1>
+		</section>
+		<section class="about-us">
+			<div class="row">
+				<div class="about-us__column">
+					<h1>We are the world's largest university</h1>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum impedit, voluptate fuga nihil dolor aut cumque illo facere nostrum tempore soluta vitae aspernatur, assumenda commodi. Obcaecati exercitationem commodi, facilis veniam nisi iste amet eos doloribus dolores, molestiae illum reiciendis. Aliquam saepe eveniet quis distinctio eligendi quas a reiciendis id vitae tempore. Quas ratione eligendi illo?</p>
+					<a class="hero-btn red-btn" href="">EXPLORE NOW</a>
+				</div>
+				<div class="about-us__column">
+					<img src="img/about.jpg" alt="">
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<h4>About Us</h4>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla odit dolore excepturi hic unde ooooo ya churka<br>deleniti maxime dolorem consequuntur sit, quaerat qui esse quae!</p>
+			<div class="icons">
+				<i class="fa-brands fa-facebook"></i>
+				<i class="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-linkedin"></i>
+			</div>
+			<p>Made with <i class="fa-regular fa-heart"></i> by Pantusha</p>
+		</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>
